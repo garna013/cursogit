@@ -1,0 +1,8 @@
+ls          --- listado directorios carpeta actual
+cd          --- Seleccionar nuevo directorios
+cd..        --- Acceder a carpeta anterior
+pwd         --- Te pinta directorio actual
+mkdir "nombre_carpeta"  --- Creacion de carpeta
+code .  --- Abrir visual studio code
+clear ---   Limpiar consola
+git status ---  Ficheros 
