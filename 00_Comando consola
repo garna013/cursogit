@@ -6,3 +6,5 @@ mkdir "nombre_carpeta"  --- Creacion de carpeta
 code .  --- Abrir visual studio code
 clear ---   Limpiar consola
 git status ---  Ficheros 
+git commit  --- Realizar salvaguarda de archivos añadidos
+git log --- para ver logging de versiones
