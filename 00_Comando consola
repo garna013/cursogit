@@ -5,6 +5,11 @@ pwd         --- Te pinta directorio actual
 mkdir "nombre_carpeta"  --- Creacion de carpeta
 code .  --- Abrir visual studio code
 clear ---   Limpiar consola
-git status ---  Ficheros 
+git status ---  Ficheros
 git commit  --- Realizar salvaguarda de archivos añadidos
 git log --- para ver logging de versiones
+git checkout ---    coje la ultima version commiteada y la restaura
+git reset ---   resetea los archivos con cargando la ultima version guardada
+git add --- para añadir archivos nuevos o modificados y despues hacer el commit
+git add *.html --- para añadir todos los archivos nuevos o modificados que terminan en .html y despues hacer el commit
+git add . --- para añadir todos los archivos nuevos o modificados de golpe y despues hacer el commit
