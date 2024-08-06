@@ -1,3 +1,6 @@
+main es la rama inicial
+HEAD es tu punto acutal de trabajo no tiene por que estar en la rama principal
+
 ls          --- listado directorios carpeta actual
 cd          --- Seleccionar nuevo directorios
 cd..        --- Acceder a carpeta anterior
@@ -9,13 +12,24 @@ git status ---  Ficheros
 git commit  --- Realizar salvaguarda de archivos añadidos
 git commit -m "comentario" --- Realizar salvaguarda de archivos añadidos y copiando directamente el comentario sin entrar al editor VIM
 git log --- para ver logging de versiones
+git reflog --- historial completo de log con checkout y todo lo que hagamos registrado
 git checkout ---    coje la ultima version commiteada y la restaura
+git checkout main --- para movernos donde tengamos el main
+git checkout tags/"nombre del tag" ---- te lleva a la version donde esta ese tag
 git reset ---   resetea los archivos con cargando la ultima version guardada
+git reset --hard "id de el punto a donde queremos movernos"   ---- mueve la caveza al punto que le especificamos
 git add --- para añadir archivos nuevos o modificados y despues hacer el commit
 git add *.html --- para añadir todos los archivos nuevos o modificados que terminan en .html y despues hacer el commit
 git add . --- para añadir todos los archivos nuevos o modificados de golpe y despues hacer el commit
 git remote add origin https://github.com/garna013/curso_github.git  ---  vincula nuestro repositorio local con uno de github
 git push -u origin master --- subir el repositorio local en github
+git tag  --- enumera todos los tags creados
+git tag "nombre del tag"  --- se crea un tag o etiqueta en la version actual
+
+
+
+
+
 touch "nombre archivo"  ----  Para crear un archivo desde el bash de git
 
 
