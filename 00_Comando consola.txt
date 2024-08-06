@@ -17,6 +17,7 @@ git checkout ---    coje la ultima version commiteada y la restaura
 git checkout main --- para movernos donde tengamos el main
 git checkout tags/"nombre del tag" ---- te lleva a la version donde esta ese tag
 git reset ---   resetea los archivos con cargando la ultima version guardada
+git reset HEAD~1 --- Para volver al commit anterior en caso de equivocacion
 git reset --hard "id de el punto a donde queremos movernos"   ---- mueve la caveza al punto que le especificamos
 git add --- para añadir archivos nuevos o modificados y despues hacer el commit
 git add *.html --- para añadir todos los archivos nuevos o modificados que terminan en .html y despues hacer el commit
@@ -25,8 +26,6 @@ git remote add origin https://github.com/garna013/curso_github.git  ---  vincula
 git push -u origin master --- subir el repositorio local en github
 git tag  --- enumera todos los tags creados
 git tag "nombre del tag"  --- se crea un tag o etiqueta en la version actual
-
-
 
 
 
