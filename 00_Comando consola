@@ -7,9 +7,12 @@ code .  --- Abrir visual studio code
 clear ---   Limpiar consola
 git status ---  Ficheros
 git commit  --- Realizar salvaguarda de archivos añadidos
+git commit -m "comentario" --- Realizar salvaguarda de archivos añadidos y copiando directamente el comentario sin entrar al editor VIM
 git log --- para ver logging de versiones
 git checkout ---    coje la ultima version commiteada y la restaura
 git reset ---   resetea los archivos con cargando la ultima version guardada
 git add --- para añadir archivos nuevos o modificados y despues hacer el commit
 git add *.html --- para añadir todos los archivos nuevos o modificados que terminan en .html y despues hacer el commit
 git add . --- para añadir todos los archivos nuevos o modificados de golpe y despues hacer el commit
+git remote add origin https://github.com/garna013/curso_github.git  ---  vincula nuestro repositorio local con uno de github
+git push -u origin master --- subir el repositorio local en github
