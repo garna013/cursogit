@@ -16,3 +16,11 @@ git add *.html --- para añadir todos los archivos nuevos o modificados que term
 git add . --- para añadir todos los archivos nuevos o modificados de golpe y despues hacer el commit
 git remote add origin https://github.com/garna013/curso_github.git  ---  vincula nuestro repositorio local con uno de github
 git push -u origin master --- subir el repositorio local en github
+touch "nombre archivo"  ----  Para crear un archivo desde el bash de git
+
+
+
+.gitignore
+C:\Users\s001135 directorio donde esta el archivo de configuracion oculto de git
+
+**/"nombre archivo"   escribiendo eso en el .gitignore omitira la revision de el archivo con ese nombre

@@ -1,0 +1,44 @@
+Comandos vim
+
+Esc	para entrar en modo comando
+:q	salir de editor sin guardar
+:w	guardar cambios realizados en un fichero
+:wq	guardar y salir
+:q!	para salir sin guardar visual
+u   deshacer cambios
+3u  deshacer 3 cambios
+CTRL +R rehacer cambios
+
+:[range]s/{pattern}/{string}/[flags]
+
+Range:
+:2,3s/Hi/Hello and Welcome/gci
+$ - ultima linea del archivo
+. - linea actual
+% - todas las lineas del archivo
+5,10 - entre las lineas 5 y 10
+
+
+Flags:
+y - Reemplazar el patron
+n - Saltar el patron
+a - Sustituye el patron y todas las ocurrencias restantes del patron
+q o Esc - Cancelar sustitución
+l - Reemplazar el patron y salir
+CTRL+Y - Desplazar la pantalla hacia abajo
+CTRL+E - Desplazar la pantalla hacia arriba
+
+
+
+v	entrar en modo visual
+y   copiar texto selecionado
+d   cortar texto selecionado
+p   pegar texto selecionado
+
+
+i	entrar en modo Insert para poder escribir
+
+
+
+vim (nombre archivo) abrir cierto archivo con el editor
+
