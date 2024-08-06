@@ -23,9 +23,12 @@ git add --- para añadir archivos nuevos o modificados y despues hacer el commit
 git add *.html --- para añadir todos los archivos nuevos o modificados que terminan en .html y despues hacer el commit
 git add . --- para añadir todos los archivos nuevos o modificados de golpe y despues hacer el commit
 git remote add origin https://github.com/garna013/curso_github.git  ---  vincula nuestro repositorio local con uno de github
-git push -u origin master --- subir el repositorio local en github
+git push -u origin "nombre rama" --- subir el repositorio local aun no subidos en github
+git push --- subir cambios sobre ramas ya creadas en github
 git tag  --- enumera todos los tags creados
 git tag "nombre del tag"  --- se crea un tag o etiqueta en la version actual
+git branch "nombre de la nueva rama"   --- crea una nueva rama
+git switch "nombre rama"  ---  desplaza el head a la rama que le indiques
 
 
 
@@ -33,7 +36,7 @@ touch "nombre archivo"  ----  Para crear un archivo desde el bash de git
 
 
 
-.gitignore
+.gitignore --- Fichero donde añadimos los archivos que no queremos que se verifiquen
 C:\Users\s001135 directorio donde esta el archivo de configuracion oculto de git
 
 **/"nombre archivo"   escribiendo eso en el .gitignore omitira la revision de el archivo con ese nombre
