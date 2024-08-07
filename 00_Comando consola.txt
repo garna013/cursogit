@@ -29,6 +29,9 @@ git tag  --- enumera todos los tags creados
 git tag "nombre del tag"  --- se crea un tag o etiqueta en la version actual
 git branch "nombre de la nueva rama"   --- crea una nueva rama
 git switch "nombre rama"  ---  desplaza el head a la rama que le indiques
+git merge "nombre de la rama"  ---  combina la rama en la que esta el head con la rama que selecionemos
+
+
 
 
 
