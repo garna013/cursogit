@@ -25,6 +25,7 @@ git remote add origin https://github.com/garna013/curso_github.git  ---  vincula
 git push -u origin master --- subir el repositorio local en github
 git tag  --- enumera todos los tags creados
 git tag "nombre del tag"  --- se crea un tag o etiqueta en la version actual
+git merge "nombre de la rama"  ---  combina la rama en la que esta el head con la rama que selecionemos
 
 
 
