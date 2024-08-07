@@ -28,9 +28,14 @@ git push --- subir cambios sobre ramas ya creadas en github
 git tag  --- enumera todos los tags creados
 git tag "nombre del tag"  --- se crea un tag o etiqueta en la version actual
 git branch "nombre de la nueva rama"   --- crea una nueva rama
+git branch -d "nombre de la rama"  ---  elimina rama especificada
 git switch "nombre rama"  ---  desplaza el head a la rama que le indiques
 git merge "nombre de la rama"  ---  combina la rama en la que esta el head con la rama que selecionemos
-
+git stash  ---  realicia una copia temporal que no no genera un commit que se guarde en el arbol
+git stash list  ---  lista los stash guardados
+git stash pop   ---  para traer de vuelta los cambios realizados y guardados en stash
+git stash drop  ---  borra lo que tubieramos guardado en stash
+git diff  ---  nos permite ver diferencias entre ficheros y entre commits
 
 
 
