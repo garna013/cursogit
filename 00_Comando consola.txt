@@ -36,8 +36,16 @@ git stash list  ---  lista los stash guardados
 git stash pop   ---  para traer de vuelta los cambios realizados y guardados en stash
 git stash drop  ---  borra lo que tubieramos guardado en stash
 git diff  ---  nos permite ver diferencias entre ficheros y entre commits
+git fetch   ---  descarga historial de cambios en github pero sin los cambios
+git pull   --- descarga cambios e historial de github
+git pull origin master
 
 
+
+
+
+Documento con comandos basicos git
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
 
 
 touch "nombre archivo"  ----  Para crear un archivo desde el bash de git
