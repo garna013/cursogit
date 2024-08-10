@@ -38,8 +38,13 @@ git stash drop  ---  borra lo que tubieramos guardado en stash
 git diff  ---  nos permite ver diferencias entre ficheros y entre commits
 git fetch   ---  descarga historial de cambios en github pero sin los cambios
 git pull   --- descarga cambios e historial de github
-git pull origin master
+git clone "direcion repositorio git hub" ---  te descarga el proyecto desde github desde el boton code ssh
 
+
+
+
+git pully.rebase false  --- para indicar en caso de cambios entre git y github queremos realizar un merge
+git pull origin master
 
 
 
