@@ -43,7 +43,7 @@ git clone "direcion repositorio git hub" ---  te descarga el proyecto desde gith
 
 
 
-git pully.rebase false  --- para indicar en caso de cambios entre git y github queremos realizar un merge
+git pull.rebase false  --- para indicar en caso de cambios entre git y github queremos realizar un merge
 git pull origin master
 
 
