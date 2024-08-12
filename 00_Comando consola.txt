@@ -8,6 +8,9 @@ pwd         --- Te pinta directorio actual
 mkdir "nombre_carpeta"  --- Creacion de carpeta
 code .  --- Abrir visual studio code
 clear ---   Limpiar consola
+git init  ---  en el directorio donde queramos crear el repositorio de git
+git branch -a   ---  para ver todas las ramas actuales
+git branch -m "nuevo nombre de la rama"  --- para cambiar el nombre de master por el nombre que queramos poner generalmente main
 git status ---  Ficheros
 git commit  --- Realizar salvaguarda de archivos añadidos
 git commit -m "comentario" --- Realizar salvaguarda de archivos añadidos y copiando directamente el comentario sin entrar al editor VIM
@@ -23,6 +26,9 @@ git add --- para añadir archivos nuevos o modificados y despues hacer el commit
 git add *.html --- para añadir todos los archivos nuevos o modificados que terminan en .html y despues hacer el commit
 git add . --- para añadir todos los archivos nuevos o modificados de golpe y despues hacer el commit
 git remote add origin https://github.com/garna013/curso_github.git  ---  vincula nuestro repositorio local con uno de github
+git remote -v  ---  Esto mostrará las URLs de fetch y push asociadas con el remoto (generalmente llamado origin).
+git remote remove origin  ---  Esto eliminará la referencia a origin, que es el nombre por defecto del repositorio remoto en Git.
+git remote set-url origin git@github.com:garna013/cursogit.git  ---  para modificar la URL del proyecto y cambide https a ssh.
 git push -u origin "nombre rama" --- subir el repositorio local aun no subidos en github
 git push --- subir cambios sobre ramas ya creadas en github
 git tag  --- enumera todos los tags creados
@@ -39,8 +45,10 @@ git diff  ---  nos permite ver diferencias entre ficheros y entre commits
 git fetch   ---  descarga historial de cambios en github pero sin los cambios
 git pull   --- descarga cambios e historial de github
 git clone "direcion repositorio git hub" ---  te descarga el proyecto desde github desde el boton code ssh
-
-
+git flow
+git remote -v  ---  Esto mostrará las URLs de fetch y push asociadas con el remoto (generalmente llamado origin).
+git remote remove origin  ---  Esto eliminará la referencia a origin, que es el nombre por defecto del repositorio remoto en Git.
+git remote set-url origin git@github.com:garna013/cursogit.git  ---  para modificar la URL del proyecto y cambide https a ssh.
 
 
 git pull.rebase false  --- para indicar en caso de cambios entre git y github queremos realizar un merge
@@ -55,7 +63,8 @@ https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
 
 touch "nombre archivo"  ----  Para crear un archivo desde el bash de git
 
-
+git config --global alias.tree "log --graph --decorate --all --oneline"
+comando para meter en el archivo .gitconfig la configuracion para ver mas claro el log
 
 .gitignore --- Fichero donde añadimos los archivos que no queremos que se verifiquen
 C:\Users\s001135 directorio donde esta el archivo de configuracion oculto de git
