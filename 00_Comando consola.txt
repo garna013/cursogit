@@ -45,10 +45,9 @@ git diff  ---  nos permite ver diferencias entre ficheros y entre commits
 git fetch   ---  descarga historial de cambios en github pero sin los cambios
 git pull   --- descarga cambios e historial de github
 git clone "direcion repositorio git hub" ---  te descarga el proyecto desde github desde el boton code ssh
-git flow
-git remote -v  ---  Esto mostrará las URLs de fetch y push asociadas con el remoto (generalmente llamado origin).
-git remote remove origin  ---  Esto eliminará la referencia a origin, que es el nombre por defecto del repositorio remoto en Git.
-git remote set-url origin git@github.com:garna013/cursogit.git  ---  para modificar la URL del proyecto y cambide https a ssh.
+git cherry-pick "hash o id del commit que queremos recuperar"
+
+fit flow
 
 
 git pull.rebase false  --- para indicar en caso de cambios entre git y github queremos realizar un merge
